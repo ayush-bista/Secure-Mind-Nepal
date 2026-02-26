@@ -16,13 +16,16 @@
     <a href="#home" class="skip-link" data-key="skip-link">Skip to main content</a>
     <nav class="navbar">
         <div class="container nav-inner">
-            <a href="#home" class="logo" data-key="nav-logo">SecureMind Nepal</a>
+            <a href="#home" class="logo" data-key="nav-logo">
+                <img src="logo.png" alt="SecureMind Nepal Logo" class="nav-logo-img">
+                SecureMind Nepal
+            </a>
             <ul class="nav-links">
-                <li><a href="#home" data-key="nav-home">Home</a></li>
-                <li><a href="#threats" data-key="nav-threats">Threats</a></li>
+            <li><a href="#threats" data-key="nav-threats">Threats</a></li>
                 <li><a href="#rights" data-key="nav-rights">Rights</a></li>
-                <li><a href="#report" data-key="nav-report">Report</a></li>
                 <li><a href="#practices" data-key="nav-practices">Practices</a></li>
+                <li><a href="#report" data-key="nav-report">Report</a></li>
+
             </ul>
             <div class="nav-controls">
                 <button id="lang-toggle" class="btn-toggle" type="button" aria-label="Toggle language">नेपाली</button>
@@ -80,23 +83,18 @@
                     <p data-key="stat-safety">Safety Increase</p>
                 </div>
             </div>
-            <div class="scroll-indicator" aria-label="Scroll to content">
-                <div class="mouse"></div>
-            </div>
+            <a href="#threats" class="scroll-indicator" aria-label="Scroll to content">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="6 9 12 15 18 9" />
+                </svg>
+            </a>
         </div>
     </section>
 
     <section id="threats" class="section">
         <div class="container">
             <div class="section-title-wrap">
-                <div class="section-illustration section-illustration-threats" aria-hidden="true">
-                    <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect x="16" y="28" width="32" height="28" rx="4" fill="var(--primary-color)" opacity="0.9" />
-                        <path d="M28 28V20a4 4 0 118 0v8" stroke="var(--accent-color)" stroke-width="3"
-                            stroke-linecap="round" />
-                        <circle cx="32" cy="42" r="3" fill="white" />
-                    </svg>
-                </div>
                 <h2 class="section-title section-title-accent" data-key="threats-title">Common Cyber Threats in Nepal
                 </h2>
             </div>
@@ -110,7 +108,7 @@
                         <p data-key="threat-1-extra">Always check the URL of the website and sender email address.
                             Nepal's banks never ask for passwords via SMS or email.</p>
                     </div>
-                    <button class="btn-expand" data-key="btn-read-more">Read More</button>
+                    <button class="btn btn-secondary btn-expand" data-key="btn-read-more">Read More</button>
                 </div>
                 <div class="card reveal">
                     <div class="card-icon">📱</div>
@@ -121,7 +119,7 @@
                         <p data-key="threat-2-extra">NEVER share your OTP with anyone, even if they claim to be from
                             bank support or digital wallet providers.</p>
                     </div>
-                    <button class="btn-expand" data-key="btn-read-more">Read More</button>
+                    <button class="btn btn-secondary btn-expand" data-key="btn-read-more">Read More</button>
                 </div>
                 <div class="card reveal">
                     <div class="card-icon">👤</div>
@@ -132,7 +130,7 @@
                         <p data-key="threat-3-extra">Enable Two-Factor Authentication (2FA) on Facebook, Instagram, and
                             TikTok to add an extra layer of security.</p>
                     </div>
-                    <button class="btn-expand" data-key="btn-read-more">Read More</button>
+                    <button class="btn btn-secondary btn-expand" data-key="btn-read-more">Read More</button>
                 </div>
                 <div class="card reveal">
                     <div class="card-icon">📢</div>
@@ -143,7 +141,7 @@
                         <p data-key="threat-4-extra">Block the harasser, save evidence (screenshots), and report to the
                             Cyber Bureau or platform administrators.</p>
                     </div>
-                    <button class="btn-expand" data-key="btn-read-more">Read More</button>
+                    <button class="btn btn-secondary btn-expand" data-key="btn-read-more">Read More</button>
                 </div>
                 <div class="card reveal">
                     <div class="card-icon">🆔</div>
@@ -154,7 +152,7 @@
                         <p data-key="threat-5-extra">Be careful about what you share on social media. Avoid posting
                             photos of your Citizenship card or Passport.</p>
                     </div>
-                    <button class="btn-expand" data-key="btn-read-more">Read More</button>
+                    <button class="btn btn-secondary btn-expand" data-key="btn-read-more">Read More</button>
                 </div>
                 <div class="card reveal">
                     <div class="card-icon">💰</div>
@@ -174,14 +172,6 @@
     <section id="rights" class="section bg-light">
         <div class="container">
             <div class="section-title-wrap">
-                <div class="section-illustration section-illustration-rights" aria-hidden="true">
-                    <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M32 8L12 18v14c0 14 8 24 20 30 12-6 20-16 20-30V18L32 8z" fill="var(--primary-color)"
-                            opacity="0.85" />
-                        <path d="M26 32l6 6 12-12" stroke="white" stroke-width="2.5" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                    </svg>
-                </div>
                 <h2 class="section-title section-title-accent" data-key="rights-title">Digital Rights & Responsibilities
                 </h2>
             </div>
@@ -289,13 +279,6 @@
     <section id="practices" class="section">
         <div class="container">
             <div class="section-title-wrap">
-                <div class="section-illustration section-illustration-practices" aria-hidden="true">
-                    <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="32" cy="32" r="14" stroke="var(--primary-color)" stroke-width="3" fill="none" />
-                        <path d="M28 32l5 5 10-10" stroke="var(--accent-color)" stroke-width="2.5"
-                            stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
-                </div>
                 <h2 class="section-title section-title-accent" data-key="practices-title">Safe Digital Practices</h2>
             </div>
             <div class="checklist grid">
@@ -331,15 +314,6 @@
         <div class="report-bg" aria-hidden="true"></div>
         <div class="container">
             <div class="section-title-wrap">
-                <div class="section-illustration section-illustration-report" aria-hidden="true">
-                    <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M32 12a8 8 0 00-8 8v4h-4a4 4 0 00-4 4v20a4 4 0 004 4h24a4 4 0 004-4V28a4 4 0 00-4-4h-4v-4a8 8 0 00-8-8z"
-                            fill="var(--primary-color)" opacity="0.9" />
-                        <circle cx="32" cy="38" r="6" fill="var(--accent-color)" />
-                        <path d="M32 35v2m0 4v-2" stroke="white" stroke-width="1.5" stroke-linecap="round" />
-                    </svg>
-                </div>
                 <h2 class="section-title section-title-accent" data-key="report-title">Report Cybercrime</h2>
             </div>
             <p class="report-intro" data-key="report-intro">If you or someone you know has been a victim of online
