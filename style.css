@@ -1268,51 +1268,110 @@ body {
 }
 
 @media (max-width: 600px) {
-    .hero h1 {
-        font-size: 2.5rem;
+    .section {
+        padding: 60px 0;
     }
-
+    .container {
+        padding: 0 16px;
+    }
+    .hero h1 {
+        font-size: 2.2rem;
+        margin-bottom: 20px;
+    }
+    .hero .hero-subtext {
+        font-size: 1.05rem;
+        margin-bottom: 32px;
+    }
     .hero-illustration {
         width: 64px;
         height: 64px;
         margin-bottom: 20px;
     }
-
     .section-illustration {
         width: 48px;
         height: 48px;
         margin-bottom: 12px;
     }
-
     .hero-btns {
         flex-direction: column;
+        gap: 16px;
     }
-
+    .hero-btns .btn {
+        width: 100%;
+    }
     .stats {
         flex-direction: column;
         align-items: center;
+        gap: 20px;
     }
-
     .stat-item {
         width: 100%;
-        max-width: 260px;
+        max-width: 100%;
         min-width: unset;
+        padding: 20px;
     }
-
-
+    .section-title {
+        font-size: 1.8rem;
+        margin-bottom: 40px;
+    }
+    .threat-grid .card {
+        padding: 20px;
+    }
+    .accordion-header {
+        padding: 16px 20px;
+        gap: 12px;
+    }
+    .accordion-question {
+        font-size: 1rem;
+    }
+    .accordion-body-inner {
+        padding: 0 20px;
+    }
+    .accordion-item.is-open .accordion-body-inner {
+        padding: 0 20px 20px;
+    }
+    .checklist-item {
+        padding: 20px;
+        flex-direction: column;
+        gap: 12px;
+        text-align: center;
+    }
+    .checklist-item .check-box {
+        margin: 0 auto;
+    }
     .report-contact-grid {
         grid-template-columns: 1fr;
+        gap: 16px;
     }
-
+    .report-card {
+        padding: 20px;
+    }
     .report-steps {
         padding: 24px 20px;
     }
-
     .report-cta {
-        padding: 28px 20px;
+        padding: 24px 20px;
     }
-
     .report-cta-text {
         font-size: 1.05rem;
+    }
+    .report-mailbox-header {
+        padding: 24px 20px;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .report-mailbox-form {
+        padding: 24px 20px;
+    }
+    .report-mailbox-title {
+        font-size: 1.25rem;
+    }
+    .footer {
+        padding: 40px 0;
+    }
+    .footer-links {
+        gap: 16px;
+        flex-direction: column;
     }
 }
