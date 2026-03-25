@@ -1037,7 +1037,8 @@ body {
     margin-bottom: 20px;
 }
 
-.report-mailbox-form select {
+.report-mailbox-form select,
+.report-mailbox-form input:not([type="file"]) {
     width: 100%;
     padding: 14px 16px;
     border: 2px solid var(--light-gray);
@@ -1047,10 +1048,14 @@ body {
     font-family: inherit;
     font-size: 1rem;
     transition: var(--transition);
+}
+
+.report-mailbox-form select {
     cursor: pointer;
 }
 
-.report-mailbox-form select:focus {
+.report-mailbox-form select:focus,
+.report-mailbox-form input:not([type="file"]):focus {
     outline: none;
     border-color: var(--primary-color);
 }
@@ -1294,9 +1299,6 @@ body {
         min-width: unset;
     }
 
-    .form-container {
-        padding: 40px 20px;
-    }
 
     .report-contact-grid {
         grid-template-columns: 1fr;
