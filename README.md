@@ -31,15 +31,6 @@ This is a modern, responsive, and lightweight web application built using standa
 - **Vanilla CSS3** for styling, incorporating modern aesthetics like glassmorphism, smooth animations, and CSS variables for theme switching.
 - **Vanilla JavaScript** for interactive elements such as language translation, theme toggling, intersection observers (scroll reveal animations), and dynamic statistics counting.
 
-## 🚀 How to Run Locally
-
-Since this is a static website, you don't need any complex server setup to run it locally.
-
-1. Clone or download the repository to your local machine.
-2. Open the project folder (`Web wizard`).
-3. Double-click on the `index.html` file to open it in your default web browser.
-
-Alternatively, you can use a local development server like the "Live Server" extension in VS Code for a better live-reload experience.
 
 ## 📜 Disclaimer
 The "Report Cyber Crime" form acts as a structural guide to help victims organize their information and evidence. For official actions and FIR registrations, victims must contact the Nepal Police Cyber Bureau directly via **1144** or email at **cyberbureau@nepalpolice.gov.np**.
